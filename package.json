@@ -1,0 +1,19 @@
+{
+  "name": "SimpleHyperApp",
+  "version": "1.0.0",
+  "description": "Simple Hyper App Sample",
+  "main": "dist/index.js",
+  "repository": "https://github.com/Himenon/SimpleHyperApp",
+  "scripts": {
+    "build": "tsc",
+    "server": "npx http-server .",
+    "watch": "tsc -w"
+  },
+  "author": "Himenon",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "hyperapp": "^1.2.8",
+    "typescript": "^3.0.1"
+  }
+}
